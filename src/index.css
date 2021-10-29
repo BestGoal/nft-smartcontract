@@ -1,0 +1,1214 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none!important;
+  box-sizing: border-box;
+  text-decoration: none!important;
+  
+}
+.nav1{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  background-color: rgb(20,25,46);
+  align-items: center;
+  position: static;
+  border-bottom: 1px solid whitesmoke;
+  
+}
+.nav1 .logo{
+  width: 10%;
+  
+}
+.nav1 .logo h2{
+  color: white;
+  font-size: 30px;
+}
+
+.nav1 .menulist{
+  width: 90%;
+}
+.nav1 .exploreinput{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  border: 3px solid #EC892C;
+  justify-content: space-between;
+  border-radius: 999px;
+  padding-left: 20px;
+ 
+}
+.nav1 .exploreinput input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.nav1 .exploreinput ::placeholder{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.nav1 .exploreinput svg{
+  font-size: 30px;
+  color: wheat;
+}
+.nav1 .exploreinput .sicon{
+  background-color: #EC892C;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.nav1 ol{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav1 ol li{
+  font-size: 20px;
+  color: white;
+}
+.assetdetail .astdet{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 20px 0;
+}
+.assetdetail .astdet h3{
+  margin: 0;
+  font-size: 25px;
+}
+.nav1 ol li a{
+  color: white;
+}
+.nav1 .menulist .search{
+  padding: 5px;
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+}
+.nav1 .menulist .search input{
+  width: 270px;
+  padding: 2px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.nav1 .menu{
+  display: none;
+}
+.nav1 .menu svg{
+  font-size: 30px;
+  color: white;
+}
+
+.searchone{
+  background-color: rgb(20,25,46);
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* nfthomepage  */
+.nftcreator{
+  padding-top: 30px;
+  min-height: 100vh;
+  height: auto;
+  background-color: rgb(20,25,46);
+}
+.nftcreator h2{
+  color: white;
+  font-size: 50px;
+}
+.nftcreator h3{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.nftcreator .nftcard{
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+}
+.nftcreator .mnftcard {
+  border: 4px solid rgb(234,146,62);
+  width: 280px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom ,rgb(20,25,46) 70%  , rgba(234, 145, 62, 0.39) );
+  
+  border-radius: 15px;
+  
+}
+.nftcreator .mnftcard:hover{
+  box-shadow: 0 4px 6px 0 rgb(234,146,62), 0 6px 20px 0 rgb(234,146,62);
+}
+
+.nftcreator .mnftcard h3{
+  margin-top: 30px;
+  text-align: center;
+  color:white;
+}
+.nftcreator .mnftcard:hover h3{
+  color:rgb(236, 137, 44);
+}
+.nftcreator .mnftcard:hover svg{
+  box-shadow: 0 2px 3px 0 rgb(234,146,62), 0 2px 6px 0 rgb(234,146,62);
+}
+.nftcreator .mnftcard svg{
+  font-size: 120px;
+  border: 4px solid rgb(234,146,62);
+  border-radius: 50%;
+  font-weight: bolder;
+  color: rgb(234,146,62);
+}
+
+
+
+.createcollection{
+  padding-top: 30px;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(20,25,46);
+}
+.createcollection a{
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: rgba(240, 248, 255, 0.664);
+}
+.createcollection a svg{
+  font-size: 35px;
+}
+.createcollection h2{
+  color: white;
+  font-size: 50px;
+}
+.createcollection h3{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.createcollection .nftcard{
+  padding: 0 0px;
+  display: flex;
+  justify-content: center;
+}
+.createcollection .mnftcard {
+  
+  width: 280px; 
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom ,rgb(25,31,58) 60%  , rgb(20,25,46) );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  border-radius: 15px;
+  
+}
+.createcollection .mnftcard img{
+  
+  max-height:350px ;
+  width: fit-content;
+}
+.createcollection .mnftcard:hover{
+  box-shadow: 0 0px 1px 0 rgba(234, 145, 62, 0.76), 0 0px 4px 0 rgba(234, 145, 62, 0.795);
+}
+
+.createcollection .mnftcard h3{
+  margin-top: 30px;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+.createcollection .mnftcard p{
+  text-align: center;
+  color: rgba(240, 248, 255, 0.692);
+  font-size: 15px;
+  margin-top: 10px;
+}
+/* .createcollection .mnftcard:hover h3{
+  color:rgb(236, 137, 44);
+}
+.createcollection .mnftcard:hover svg{
+  box-shadow: 0 2px 3px 0 rgb(234,146,62), 0 2px 6px 0 rgb(234,146,62);
+} */
+.createcollection .mnftcard svg{
+  font-size: 120px;
+  
+  color: rgb(234,146,62);
+}
+
+.createcollection .nftcreatecard{
+  background-color: rgb(26,32,60);
+  min-height: 400px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+.createcollection .nftcreatecard label{
+  color: rgba(240, 248, 255, 0.671);
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.createcollection .nftcreatecard input{
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 8px 3px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createcollection .nftcreatecard textarea{
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 8px 3px;
+  height: 200px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createcollection .nftcbtn button{
+  float: right;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+}
+
+
+.home{
+  padding: 50px 0;
+  background-color: rgb(20,25,46);
+}
+.home .homeimg img{
+  border-radius: 50px;
+}
+.midline .midlist{
+  margin-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(26,32,60);
+  padding: 0px 0;
+  border-radius: 22px;
+}
+.midline .midlistmain{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.midline{
+  background-color: rgb(20,25,46);
+  padding: 50px 0;
+}
+.midline .midlistmain svg{
+  font-size: 40px;
+}
+.midline .midlistmain img{
+  width: 50px;
+  height: 50px;
+}
+.midline .midlistmain  h3{
+  font-size: 25px;
+}
+
+
+.carosel{
+  background-color: rgb(20,25,46);
+  padding: 30px 0;
+}
+.carosel h2{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 60px 0;
+}
+.carosel .detailbtn{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid rgb(234,146,62)!important;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.carosel .buybtn{
+  background-color: rgb(234,146,62)!important;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid rgb(234,146,62)!important;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+/* .swiper-wrapper{
+  background-color: red;
+} */
+.swiper-slide{
+  background-color: rgb(26,32,60);
+  width: 260px!important;
+  height: auto!important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px!important;
+  
+}
+.carddiv{
+  background-color: rgb(26,32,60);
+  border-radius: 15px!important;
+}
+.carddiv .carddetails{
+  text-align: center;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  display: none;
+}
+.swiper-button-prev, .swiper-button-next{
+  color: rgb(20,25,46)!important;
+  background-color: whitesmoke!important;
+  font-size: 20px!important;
+  border: 50px!important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 20px!important;
+  font-weight: bold!important;
+}
+
+
+
+
+.carddiv .img{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+}
+.carddiv img{
+  padding: 30px;
+ object-fit: contain;
+ height: 250px;
+  
+  
+}
+.carddiv .carddetails h3{
+  font-size: 15px;
+  color: aliceblue;
+}
+.carddiv .carddetails h4{
+  font-size: 12px;
+  color: green;
+}
+.carddiv .card_btn{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.carddiv .card_btn button{
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.chart{
+  background-color: rgb(20,25,46);
+  padding: 30px 0;
+}
+.chart .title{
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+/* savenft card  */
+.nftcreator .savenftcard{
+  padding: 0 0px;
+  display: flex;
+  justify-content: center;
+}
+.nftcreator .savemnftcard{
+  width: 280px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  
+
+}
+.nftcreator .savenftcard .img{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.nftcreator .savenftcard img{
+  height: 220px;
+
+}
+.nftcreator .savenftcard .carddetails{
+  margin-top: 10px;
+}
+.nftcreator .savenftcard .carddetails p{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  border: 2px solid white;
+  border-radius: 999px;
+  padding: 3px;
+}
+.nftcreator .savemnftcard .card_btn button{
+  border-radius: 999px;
+  padding: 5px 10px;
+  background-color: #523C32;
+  border: none;
+  outline: none;
+  color: #EC892C;
+}
+
+/* savenftdetail  */
+
+
+.savecreatecollection{
+  padding-top: 30px;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(20,25,46);
+}
+.savecreatecollection a{
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: rgba(240, 248, 255, 0.664);
+}
+.savecreatecollection a svg{
+  font-size: 35px;
+}
+.savecreatecollection h2{
+  color: white;
+  font-size: 50px;
+}
+.savecreatecollection h3{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.savecreatecollection .nftcard{
+  padding: 0 0px;
+  display: flex;
+  justify-content: center;
+}
+.savecreatecollection .mnftcard {
+  
+  width: 280px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom ,rgb(25,31,58) 60%  , rgb(20,25,46) );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  border-radius: 15px;
+  
+}
+.savecreatecollection .mnftcard img{
+  height: 280px;
+}
+.savecreatecollection .mnftcard p{
+  color: white;
+  border: 2px solid white;
+  border-radius: 999px;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.createcollection .mnftcard:hover{
+  box-shadow: 0 0px 1px 0 rgba(234, 145, 62, 0.76), 0 0px 4px 0 rgba(234, 145, 62, 0.795);
+}
+
+.createcollection .mnftcard h3{
+  margin-top: 30px;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+.createcollection .mnftcard p{
+  text-align: center;
+  color: rgba(240, 248, 255, 0.692);
+  font-size: 15px;
+  margin-top: 10px;
+}
+/* .createcollection .mnftcard:hover h3{
+  color:rgb(236, 137, 44);
+}
+.createcollection .mnftcard:hover svg{
+  box-shadow: 0 2px 3px 0 rgb(234,146,62), 0 2px 6px 0 rgb(234,146,62);
+} */
+.createcollection .mnftcard svg{
+  font-size: 120px;
+  
+  color: rgb(234,146,62);
+}
+
+.savecreatecollection .nftcreatecard{
+  background-color: rgb(26,32,60);
+  min-height: 400px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  padding: 30px 25px;
+  font-family: sans-serif;
+}
+.savecreatecollection .nftcreatecard .displayname ,.savecreatecollection .nftcreatecard .weburl,.savecreatecollection .nftcreatecard .colldes
+,.savecreatecollection .nftcreatecard .marketfee {
+  color: white;
+  margin: 10px 10px 20px 10px;
+}
+.savecreatecollection .nftcreatecard .displayname p,.savecreatecollection .nftcreatecard .weburl p,.savecreatecollection .nftcreatecard .colldes p
+,.savecreatecollection .nftcreatecard .marketfee p{
+  font-size: 15px;
+  opacity: 0.8;
+  margin: 0;
+}
+.savecreatecollection .nftcreatecard .displayname h3{
+  font-size: 30px;
+  margin: 0;
+  margin-top: 8px;
+
+}
+.savecreatecollection .nftcreatecard .weburl h3,.savecreatecollection .nftcreatecard .colldes h3
+,.savecreatecollection .nftcreatecard .marketfee h3{
+  margin: 0;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.createcollection .nftcreatecard label{
+  color: rgba(240, 248, 255, 0.671);
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.createcollection .nftcreatecard input{
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 8px 3px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createcollection .nftcreatecard textarea{
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 8px 3px;
+  height: 200px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createcollection .nftcbtn button{
+  float: right;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+}
+
+
+/* create assets  */
+
+
+.createasset{
+  padding-top: 30px;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(20,25,46);
+}
+.createasset a{
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: rgba(240, 248, 255, 0.664);
+}
+.createasset a svg{
+  font-size: 35px;
+}
+.createasset h2{
+  color: white;
+  font-size: 50px;
+}
+.createasset h3{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.createasset .nftcard{
+  padding: 0 0px;
+  display: flex;
+  justify-content: center;
+}
+.createasset .mnftcard {
+  
+  width: 280px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom ,rgb(25,31,58) 60%  , rgb(20,25,46) );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  border-radius: 15px;
+  
+}
+.createasset .mnftcard  img{
+  max-height: 250px;
+  width: fit-content;
+}
+.createasset .mnftcard:hover{
+  box-shadow: 0 0px 1px 0 rgba(234, 145, 62, 0.76), 0 0px 4px 0 rgba(234, 145, 62, 0.795);
+}
+
+.createasset .mnftcard h3{
+  margin-top: 10px;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+.createasset .mnftcard p{
+  text-align: center;
+  color: rgba(240, 248, 255, 0.692);
+  font-size: 12px;
+  margin-top: 8px;
+}
+/* .createasset .mnftcard:hover h3{
+  color:rgb(236, 137, 44);
+}
+.createasset .mnftcard:hover svg{
+  box-shadow: 0 2px 3px 0 rgb(234,146,62), 0 2px 6px 0 rgb(234,146,62);
+} */
+.createasset .mnftcard svg{
+  font-size: 100px;
+  
+  color: rgb(234,146,62);
+}
+
+.createasset .nftcreatecard{
+  background-color: rgb(26,32,60);
+  min-height: 250px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+.createasset .nftcreatecard label{
+  color: rgba(240, 248, 255, 0.671);
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.createasset .nftcreatecard input{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 8px 3px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createasset .nftcreatecard textarea{
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 8px 3px;
+  height: 200px;
+  background-color: rgb(20,25,46);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: aliceblue;
+  
+}
+.createasset .nftcbtn button{
+  float: right;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+}
+.createasset .assetone .left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.createasset .assetone .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.createasset .assetone .left h3{
+  padding: 15px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  
+}
+.createasset .assetone .right input{
+  width: 100%;
+  padding: 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+.modal-content{
+  background-color: rgb(20,25,46)!important;
+  color: white!important;
+}
+.modal-content input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}.modal-content ::placeholder{
+  color: white;
+  font-size: 10px;
+}
+.modal-content h3{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.modal-content .modal-header{
+  display: block;
+  padding: 20px;
+}
+.modal-content .modal-header .assetowner{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5px;
+}
+.modal-content .modal-header .assetowner h4{
+  font-size: 20px;
+}
+.modal-content .modal-header .assetowner h5{
+  font-size: 18px;
+  color: #EC892C;
+}
+.modal-content .savenftcard{
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+}
+.modal-content .savemnftcard{
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  
+
+}
+.modal-content .savenftcard .img{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.modal-content .savenftcard img{
+  height: 140px;
+
+}
+.modal-content .savenftcard .carddetails{
+  margin-top: 0px;
+}
+.modal-content .savenftcard .carddetails p{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  border: 2px solid white;
+  border-radius: 999px;
+  padding: 3px 10px;
+  margin: 0;
+
+}
+.modal-content .savenftcard .carddetails h3{
+  font-size: 10px;
+  margin: 2px 0;
+}
+.modal-content .savenftcard .carddetails h4{
+  font-size: 10px;
+  margin: 0;
+  color: #EC892C;
+}
+.modal-content .modal-footer button{
+  background-color: #EC892C!important;
+  width: 100%;
+}
+.modal-content .attricard .attributes{
+  border: 3px solid rgb(236, 137, 44);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom ,rgb(20,25,46) 70%  , rgba(234, 145, 62, 0.39) );
+
+}
+.modal-content .attricard .attributes h3{
+  font-size: 20px;
+  color: #EC892C;
+}
+.modal-content .attricard .attributes h4{
+  font-size: 18px;
+}
+.modal-content .attricard .attributes p{
+  margin: 0;
+  margin-bottom: 5px;
+}
+.onsalebtn{
+  width: 100%;
+  background-color: rgb(28, 89, 204);
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  color: white;
+}
+.assetdetail .assetdetails1{
+  min-height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(26,32,60);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  color: white;
+  padding: 10px 15px;
+
+}
+.assetdetails2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.assetdetails2 input{
+  flex: 1;
+  background-color: rgb(26,32,60);
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.assetdetails2::placeholder{
+  color: white;
+}
+.assetdetails2 button,.assetdetails1 button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #EC892C;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+  border-radius: 99px;
+}
+.assetdetail .assetdetails1 .sub{
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+.assetdetail .assetdetails1 .sub h2{
+  font-size: 20px;
+  width: 30%;
+  font-weight: 200;
+}
+.assetdetail .assetdetails1 .sub h3{
+  font-size: 20px;
+  width: 60%;
+  font-weight: 200;
+  overflow-wrap: break-word;
+  
+  
+}
+
+/* explore  */
+
+.explore input{
+  width: 100%;
+  padding: 15px 10px;
+  border:none;
+  background-color: rgb(20,25,46);
+  color: white;
+  border-radius: 999px;
+
+}
+.explore{
+  background-color: rgb(20,25,46);
+  padding: 10px 30px 30px 30px ;
+  min-height: 100vh;
+}
+.explore .exinput{
+  background-color: white;
+  width: 100%;
+}
+.excard  input{
+  width: 100% !important;
+}
+.explore .excard{
+  background-color: rgb(26,32,60);
+  padding: 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  height: fit-content;
+ 
+}
+.explore .excardimg{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20,25,46);
+  padding: 10px 0;
+  height: 200px;
+}
+.explore .excardimg img{
+  
+  max-width: 280px;
+}
+.explore .excarddetail{
+  color: white;
+  text-align: center;
+  height: 150px;
+}
+.explore .excardbtn{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.explorecaro .row{
+  height: 100vh;
+  overflow: scroll;
+  padding: 10px 10px;
+  background-color: rgb(26,32,60);
+  border-radius: 25px;
+}
+.explorecaro ::-webkit-scrollbar{
+  width: 6px;
+  /* display: none; */
+}
+.explorecaro  ::-webkit-scrollbar-corner{
+  display: none;
+}
+.explorecaro ::-webkit-scrollbar-thumb{
+  background-color: rgb(11, 16, 39);
+  border-radius: 6px;
+  
+}
+.exploreinput{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  border: 3px solid #EC892C;
+  justify-content: space-between;
+  border-radius: 999px;
+  padding-left: 20px;
+ 
+}
+.exploreinput ::placeholder{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.exploreinput svg{
+  font-size: 30px;
+  color: wheat;
+}
+.exploreinput .sicon{
+  background-color: #EC892C;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.explore .excard img{
+  width: 120px;
+  height: auto;
+  max-height: 200px;
+}
+.explore .excard .excarddetail p{
+  margin: 0;
+  margin-bottom: 10px;
+ 
+}
+.explore .excard .excarddetail p:nth-child(1){
+  border: 2px solid white;
+  width: fit-content;
+  padding: 2px 5px;
+  font-size: 13px;
+  border-radius: 999px;
+}
+.explore .excard .excarddetail p:nth-child(2){
+  font-size: 16px;
+  font-weight: bold;
+}
+.explore .excard .excarddetail p:nth-child(3){
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(36, 121, 36);
+}
+.explore .excard .excarddetail p:nth-child(4){
+  word-break: break-all;
+
+}
+.explore .excard .excarddetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+
+}
+.explore .excardbtn button{
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none!important;
+  box-sizing: border-box;
+  width: 90px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.explore .excardbtn .one{
+  background-color: transparent;
+  border: 2px solid #EC892C;
+  color: white;
+}
+.explore .excardbtn .two{
+  background-color: #EC892C;
+  /* border: 2px solid #EC892C; */
+  color: white;
+}
+.filbtn{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+
+}
+.filbtn button{
+  padding: 8px 30px;
+  width: auto;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  text-transform: capitalize;
+  outline: none;
+}
+.filbtn .exactive{
+  border-bottom: 4px solid #EC892C;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+
+
+@media screen and (max-width: 1180px) {
+  .nav1 .menulist{
+    
+    background-color: rgb(20,25,46);
+    width: 100%;
+  }
+  .nav1 .menulist ol{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(20,25,46);
+    padding: 30px 0;
+    width: 100%;
+    margin: 0;
+    top:-1000px;
+    left: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+    z-index: 5;
+    transition: 0.9s all;
+  }
+  .nav1 .menusub ol{
+    top:0
+  }
+  .nav1 .menu {
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+  .menu .mbtn{
+    display: block;
+  }
+  .menu .cbtn{
+    display: none;
+  }
+  .rbtn .mbtn{
+    display: none;
+  }
+  .rbtn .cbtn{
+    display: block;
+  }
+}
